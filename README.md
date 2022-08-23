@@ -1,5 +1,5 @@
 
-Clone This Repository
+You Can Clone This Repository To Run In Your Local Machine
 
 Install The Required Dependencies
 
@@ -15,7 +15,7 @@ and
 
 OR Hit
 
---> npm install @material-ui/core react-router-dom react-imask mongoose express cors body-parser
+--> npm install @material-ui/core react-router-dom react-imask mongoose express cors body-parser xlsx xlsx-populate
 
 
 
