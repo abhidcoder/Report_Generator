@@ -7,8 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.json());
 const HandleData = require("./database");
 
-const path = require('path')
-app.use(express.static(path.join(__dirname + "/public")))
+
 
 
 app.all("/store",async(req, res) =>{
@@ -42,9 +41,7 @@ try{
 })
 
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
-  });
+
 
 app.listen(process.env.PORT || 8005, () => {
     console.log("Runing on port","http://localhost:"+8005);
